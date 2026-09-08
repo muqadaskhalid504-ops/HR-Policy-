@@ -1,0 +1,31 @@
+# HR Policy RAG Assistant
+
+A Retrieval-Augmented Generation (RAG) application built with Streamlit.
+
+## Features
+
+- Upload HR Policy PDF
+- Extract text using PyMuPDF
+- Split document into chunks
+- Generate embeddings using Sentence Transformers
+- Store embeddings using FAISS
+- Retrieve relevant policy information
+- Generate answers using Groq
+- Display retrieved source chunks
+
+## Technologies
+
+- Python
+- Streamlit
+- PyMuPDF
+- Sentence Transformers
+- FAISS
+- Groq
+
+## Deployment
+
+This application can be deployed using Streamlit Community Cloud.
+
+Add the following secret:
+
+GROQ_API_KEY = "your_groq_api_key"
